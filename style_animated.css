@@ -1,0 +1,61 @@
+.heartBeat {
+	display: inline-block;
+	margin: 1em 2em;
+
+  	animation: infinite heartBeat; 
+  	animation-duration: 2s;
+  	font-family: arial;
+}
+
+.bounce {
+  	display: inline-block;
+  	margin: 2em 10em;
+	
+	animation: infinite bounce;
+  	animation-duration: 2s;
+  	font-family: georgia;
+}
+
+.rubberBand {
+	display: inline-block;
+	margin: 1.5em 7em;
+
+  	animation: infinite rubberBand;
+	animation-duration: 2s; 
+}
+
+.pulse {
+	display: inline-block;
+	margin: 0em 7em;
+
+  	animation: infinite pulse;
+	animation-duration: 2s;
+}
+
+.shakey {
+	display: inline-block;
+	margin: 0em 9em;
+
+  	animation: infinite shakeY;
+	animation-duration: 1s;
+}
+
+.headshake {
+	display: inline-block;
+	margin: 3em 3em;
+
+  	animation: infinite headShake;
+	animation-duration: 2s;
+}
+
+.bounceIn {
+	display: inline-block;
+	margin: 0em 4em;
+
+  	animation: infinite bounceIn;
+	animation-duration: 1s;
+}
+
+a {
+	color: black;
+}
